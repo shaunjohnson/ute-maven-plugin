@@ -27,6 +27,30 @@
     <description>Universal Task Executer Maven Plugin</description>
     <url>http://lmxm.net/ute-maven-plugin</url>
     <inceptionYear>2012</inceptionYear>
+
+    <organization>
+        <name>LMXM LLC</name>
+        <url>http://lmxm.net</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License, Version 3</name>
+            <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/shaunjohnson/ute-maven-plugin/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>http://travis-ci.org/#!/shaunjohnson/ute-maven-plugin</url>
+    </ciManagement>
+
     <developers>
         <developer>
             <id>shaun</id>
@@ -39,15 +63,13 @@
             </roles>
         </developer>
     </developers>
+
     <scm>
         <connection>scm:git:git@github.com:shaunjohnson/ute-maven-plugin.git</connection>
         <url>scm:git:git@github.com:shaunjohnson/ute-maven-plugin.git</url>
         <developerConnection>scm:git:git@github.com:shaunjohnson/ute-maven-plugin.git</developerConnection>
     </scm>
-    <organization>
-        <name>LMXM LLC</name>
-        <url>http://lmxm.net</url>
-    </organization>
+
     <build>
         <plugins>
             <plugin>
